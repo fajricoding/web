@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Data Kontak</title>
     <style>
-        /* Background gradasi */
         body {
             margin: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(to right, #e0f7fa, #ffffff);
+            background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1740&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             padding: 40px;
         }
 
         h2 {
             text-align: center;
-            color: #006064;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
             margin-bottom: 30px;
         }
 
@@ -23,25 +27,31 @@
             width: 90%;
             margin: auto;
             border-collapse: collapse;
-            background-color: white;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.85);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
             overflow: hidden;
         }
 
-        th, td {
+        th,
+        td {
             padding: 15px;
             text-align: left;
             border-bottom: 1px solid #ccc;
         }
 
         th {
-            background-color: #006064;
+            background-color: #004d40;
             color: white;
         }
 
+        td.nama {
+            font-weight: bold;
+            color: #263238;
+        }
+
         tr:hover {
-            background-color: #f1f1f1;
+            background-color: #f0f0f0;
         }
 
         a.whatsapp-link {
@@ -55,9 +65,11 @@
             color: #004d40;
         }
 
-        /* Responsif di mobile */
         @media (max-width: 600px) {
-            table, th, td {
+
+            table,
+            th,
+            td {
                 font-size: 14px;
             }
 
@@ -67,6 +79,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <h2>📇 Daftar Kontak</h2>
@@ -74,32 +87,237 @@
         <thead>
             <tr>
                 <th>No</th>
-                <th>Nama</th>
-                <th>No HP</th>
+                <th>Nama kos</th>
+                <th>nama Pemilik</th>
+                <th>No HP1</th>
+                <th>No HP2</th>
                 <th>Alamat</th>
+                <th>jenis</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Ani</td>
-                <td><a class="whatsapp-link" href="https://wa.me/6281234567890" target="_blank">0812-3456-7890</a></td>
-                <td>Jl. Merdeka No. 1</td>
+                <td class="nama">kos putri 1</td>
+                <td class="nama">kos putri 1</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6285263649060" target="_blank">085263649060</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281277482344" target="_blank">081277482344</a></td>
+                <td>----</td>
+                <td>-----</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Budi</td>
-                <td><a class="whatsapp-link" href="https://wa.me/6282112223333" target="_blank">0821-1222-3333</a></td>
-                <td>Jl. Sudirman No. 45</td>
+                <td class="nama">kos putri 2</td>
+                <td class="nama">----</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281319397460" target="_blank">081319397460</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank">0</a></td>
+                <td>----</td>
+                <td>kos putri</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Citra</td>
-                <td><a class="whatsapp-link" href="https://wa.me/6283344556677" target="_blank">0833-4455-6677</a></td>
-                <td>Jl. Mawar No. 12</td>
+                <td class="nama">kos putri </td>
+                <td class="nama">----</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+628126628269" target="_blank">08126628269</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank">0</a></td>
+                <td>----</td>
+                <td>kos putri</td>
             </tr>
+            <tr>
+                <td>4</td>
+                <td class="nama">kos mama dewi II</td>
+                <td class="nama">-----</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282172936627" target="_blank">082172936627</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank">0</a></td>
+                <td>jl.patenggangan/belakang pak golak</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="nama">kos putri</td>
+                <td class="nama">-----</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281267437288" target="_blank">081267437288</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281374790228" target="_blank">081374790228</a></td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="nama">kos putri 6</td>
+                <td class="nama">-------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282386659201" target="_blank">082386659201</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank">0</a></td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td class="nama">kos putri 7</td>
+                <td class="nama">---------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281295077666" target="_blank">081295077666</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank">0</a></td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="nama">kos putri 8</td>
+                <td class="nama">-------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281262516961" target="_blank">081262516961</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank">0</a></td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="nama">kos putri 9</td>
+                <td class="nama">-----</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282171996918" target="_blank">082171996918</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282174313173" target="_blank">082174313173</a></td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td class="nama">kos putri 10</td>
+                <td class="nama">ibu uud</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281973525292" target="_blank">081973525292</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td class="nama">kos putri 11</td>
+                <td class="nama">-------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281363335400" target="_blank">081363335400</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td class="nama">kos putri 12</td>
+                <td class="nama">--------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6285263629511" target="_blank">085263629511</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td class="nama">kos putri 13</td>
+                <td class="nama">-------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282170095533" target="_blank">082170095533</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>jl.Bondo No.5</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td class="nama">kos putri 14</td>
+                <td class="nama">------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62812708219669" target="_blank">0812708219669</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>Jl.Elang No.8</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td class="nama">kos putri 15</td>
+                <td class="nama">-----------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282249122790" target="_blank">082249122790</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td class="nama">kos afa </td>
+                <td class="nama">-----------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282170732313" target="_blank">082170732313</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6285766007173" target="_blank">085766007173</a></td>
+                <td>Jl.Enggang raya No.4</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td class="nama">kos putri harmoni </td>
+                <td class="nama">-----------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281363766988" target="_blank">081363766988</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281267672252" target="_blank">081267672252</a></td>
+                <td>----</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td class="nama">kos afa kamuko shop </td>
+                <td class="nama">-----------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281374054701" target="_blank">081374054701</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>Jl.
+                    Enggang VI No.2
+                </td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td class="nama">kos putri 19 </td>
+                <td class="nama">-----------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281270563299" target="_blank">081270563299</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>Jl.Enggang IV No.3</td>
+                <td>kos putri</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td class="nama">kos/kontrakan </td>
+                <td class="nama">-----------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282286317377" target="_blank">082286317377</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kos/kontrakan umum</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td class="nama">kontrakan Hj.mel </td>
+                <td class="nama">Hj.mel</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6285271651253" target="_blank">085271651253</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kontrakan/tidak terima kos</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td class="nama">kontrakan 3 </td>
+                <td class="nama">Hj.mel</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6281266502544" target="_blank">081266502544</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kos/kontrakan umum</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td class="nama">kos putra 1 </td>
+                <td class="nama">-------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6285274251126" target="_blank">085274251126</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kos putra</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td class="nama">kos putra 2 </td>
+                <td class="nama">-------</td>
+                <td><a class="whatsapp-link" href="https://wa.me/+6282298949898" target="_blank">082298949898</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/+62" target="_blank"></a>0</td>
+                <td>----</td>
+                <td>kos putra</td>
+            </tr>
+
         </tbody>
     </table>
 
 </body>
+
 </html>
