@@ -1,60 +1,75 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Kontak</title>
     <style>
+        /* Background gradasi */
         body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
+            padding: 40px;
         }
 
         h2 {
-            color: #333;
+            text-align: center;
+            color: #006064;
+            margin-bottom: 30px;
         }
 
         table {
-            width: 100%;
+            width: 90%;
+            margin: auto;
             border-collapse: collapse;
-            margin-top: 15px;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
         }
 
-        table,
-        th,
-        td {
-            border: 1px solid #999;
-        }
-
-        th,
-        td {
-            padding: 10px;
+        th, td {
+            padding: 15px;
             text-align: left;
+            border-bottom: 1px solid #ccc;
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: #006064;
+            color: white;
         }
 
         tr:hover {
-            background-color: #f9f9f9;
+            background-color: #f1f1f1;
         }
 
         a.whatsapp-link {
-            color: green;
+            color: #00796b;
             text-decoration: none;
+            font-weight: bold;
         }
 
         a.whatsapp-link:hover {
             text-decoration: underline;
+            color: #004d40;
+        }
+
+        /* Responsif di mobile */
+        @media (max-width: 600px) {
+            table, th, td {
+                font-size: 14px;
+            }
+
+            body {
+                padding: 10px;
+            }
         }
     </style>
 </head>
-
 <body>
 
-    <h2>Daftar Kontak</h2>
+    <h2>📇 Daftar Kontak</h2>
     <table>
         <thead>
             <tr>
@@ -68,14 +83,13 @@
             <tr>
                 <td>1</td>
                 <td>Ani</td>
-                <td><a class="whatsapp-link" href="https://wa.me/+6285282512974" target="_blank">085282512974</a></td>
+                <td><a class="whatsapp-link" href="https://wa.me/6281234567890" target="_blank">0812-3456-7890</a></td>
                 <td>Jl. Merdeka No. 1</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Budi</td>
-                <td><a class="whatsapp-link" href="https://wa.me/+6282283321557" target="_blank">0821-1222-3333</a>
-                </td>
+                <td><a class="whatsapp-link" href="https://wa.me/6282112223333" target="_blank">0821-1222-3333</a></td>
                 <td>Jl. Sudirman No. 45</td>
             </tr>
             <tr>
@@ -88,5 +102,4 @@
     </table>
 
 </body>
-
 </html>
